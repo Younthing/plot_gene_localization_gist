@@ -12,7 +12,7 @@ library(circlize)
 #' @examples
 #' # 定义基因列表
 #' genes <- c("BRCA1", "TP53", "MYC")
-#' # 生成基因组图并导出数据
+#' # 生成基因组图并导出数据c
 #' generate_gene_plots(genes, output_folder = "my_output_folder")
 #' @details 该函数首先从Ensembl数据库获取基因位置信息，然后分别使用`karyoploteR`和`circlize`包生成染色体图和环形基因组图，最后导出基因位置信息表。
 #' @keywords genome plot karyotype circos gene location
